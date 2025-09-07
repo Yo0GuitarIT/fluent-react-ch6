@@ -27,9 +27,9 @@ seoMeta:
   ogImage: auto
   # ogImage: https://cover.sli.dev
 fonts:
-  sans: JetBrains Mono 
-  serif: JetBrains Mono 
-  mono: JetBrains Mono 
+  sans: JetBrains Mono
+  serif: JetBrains Mono
+  mono: JetBrains Mono
 css: style.css
 ---
 
@@ -83,7 +83,6 @@ src: ./pages/6-6.md
 src: ./pages/conclusion.md
 ---
 
----
 # Welcome to Slidev
 
 Presentation slides for developers
