@@ -31,6 +31,7 @@ fonts:
   serif: JetBrains Mono
   mono: JetBrains Mono
 css: style.css
+hideInToc: true
 ---
 
 ## Tech Book Community
