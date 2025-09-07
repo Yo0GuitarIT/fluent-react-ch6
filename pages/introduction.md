@@ -1,6 +1,4 @@
 ---
-# layout: two-cols
-# layoutClass: gap-16 grid-cols-[1fr_2fr]
 layout: image-left
 image: https://cover.sli.dev
 hideInToc: true
@@ -8,17 +6,24 @@ hideInToc: true
 
 # 目次
 
-<!-- <img border="rounded" src="https://cover.sli.dev" alt=""/> -->
-
-<!-- ::right:: -->
-
 <Toc text-sm minDepth="1" maxDepth="2" />
 
 ---
+layout: two-cols
+layoutClass: gap-16
 hideInToc: true
 ---
 
+<div class="flex items-center h-full">
+    <img border="rounded" src="../assets/photo.jpeg" alt=""/> 
+</div>
+
+::right::
+
 # 自我介紹
+
+- 123
+- 123
 
 ---
 
