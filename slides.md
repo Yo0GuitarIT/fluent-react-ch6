@@ -5,7 +5,7 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: React 第六章
+title: 流暢的 React - CH6
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -33,10 +33,13 @@ fonts:
 css: style.css
 ---
 
-# React 第六章
-## 服務器端渲染與現代化開發
+## Tech Book Community
+## 《流暢的 React : 建構快速、高效、直覺的 Web 應用程式》
 
-歡迎來到 React 第六章的學習！
+### CH6: 伺服器端的 React 
+
+導讀人：Yo0
+筆記工：Kent
 
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
   Press Space for next page <carbon:arrow-right />
@@ -46,7 +49,7 @@ css: style.css
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
     <carbon:edit />
   </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
+  <a href="https://github.com/Yo0GuitarIT/fluent-react-ch6" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
   </a>
 </div>
