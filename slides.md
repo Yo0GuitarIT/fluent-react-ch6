@@ -5,7 +5,7 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: React 第六章
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -33,6 +33,57 @@ fonts:
 css: style.css
 ---
 
+# React 第六章
+## 服務器端渲染與現代化開發
+
+歡迎來到 React 第六章的學習！
+
+<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
+  Press Space for next page <carbon:arrow-right />
+</div>
+
+<div class="abs-br m-6 text-xl">
+  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
+    <carbon:edit />
+  </button>
+  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
+    <carbon:logo-github />
+  </a>
+</div>
+
+---
+src: ./pages/introduction.md
+---
+
+---
+src: ./pages/6-1.md
+---
+
+---
+src: ./pages/6-2.md
+---
+
+---
+src: ./pages/6-3.md
+---
+
+---
+src: ./pages/6-4.md
+---
+
+---
+src: ./pages/6-5.md
+---
+
+---
+src: ./pages/6-6.md
+---
+
+---
+src: ./pages/conclusion.md
+---
+
+---
 # Welcome to Slidev
 
 Presentation slides for developers
@@ -54,9 +105,6 @@ Presentation slides for developers
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
----
-src: ./pages/1-1.md
----
 ---
 
 # What is Slidev?
