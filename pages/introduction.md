@@ -1,6 +1,8 @@
 ---
 # layout: two-cols
 # layoutClass: gap-16 grid-cols-[1fr_2fr]
+layout: image-left
+image: https://cover.sli.dev
 hideInToc: true
 ---
 
@@ -10,7 +12,7 @@ hideInToc: true
 
 <!-- ::right:: -->
 
-<Toc text-sm minDepth="1" maxDepth="2" columns = "2"/>
+<Toc text-sm minDepth="1" maxDepth="2" />
 
 ---
 hideInToc: true

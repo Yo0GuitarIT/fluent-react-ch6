@@ -87,6 +87,10 @@ src: ./pages/6-6.md
 src: ./pages/conclusion.md
 ---
 
+---
+hideInToc: true
+---
+
 # Welcome to Slidev
 
 Presentation slides for developers
@@ -108,6 +112,8 @@ Presentation slides for developers
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
+---
+hideInToc: true
 ---
 
 # What is Slidev?
@@ -164,6 +170,7 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 ---
 layout: two-cols
 layoutClass: gap-16
+hideInToc: true
 ---
 
 # Table of contents
@@ -183,6 +190,7 @@ The title will be inferred from your slide content, or you can override it with 
 ---
 layout: image-right
 image: https://cover.sli.dev
+hideInToc: true
 ---
 
 # Code
@@ -308,6 +316,8 @@ const author = {
 ````
 
 ---
+hideInToc: true
+---
 
 # Components
 
@@ -351,6 +361,7 @@ Also, HTML elements are valid:
 
 ---
 class: px-20
+hideInToc: true
 ---
 
 # Themes
@@ -380,6 +391,8 @@ theme: seriph
 Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
 check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
 
+---
+hideInToc: true
 ---
 
 # Clicks Animations
@@ -417,6 +430,8 @@ also allows you to add
 
 </div>
 
+---
+hideInToc: true
 ---
 
 # Motions
@@ -498,6 +513,8 @@ const final = {
 </div>
 
 ---
+hideInToc: true
+---
 
 # LaTeX
 
@@ -520,7 +537,8 @@ $$
 [Learn more](https://sli.dev/features/latex)
 
 ---
-
+hideInToc: true
+---
 # Diagrams
 
 You can create diagrams / graphs from textual descriptions, directly in your Markdown.
@@ -602,7 +620,8 @@ foo: bar
 dragPos:
   square: 691,32,167,_,-16
 ---
-
+hideInToc: true
+---
 # Draggable Elements
 
 Double-click on the draggable elements to edit their positions.
@@ -648,7 +667,8 @@ hide: false
 ---
 
 ---
-
+hideInToc: true
+---
 # Monaco Editor
 
 Slidev provides built-in Monaco Editor support.
@@ -676,6 +696,7 @@ console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-
 ---
 layout: center
 class: text-center
+hideInToc: true
 ---
 
 # Learn More
