@@ -22,8 +22,18 @@ hideInToc: true
 
 # 自我介紹
 
-- 123
-- 123
+- Yo0
+- 一年經驗前端工程師
+- 興趣
+    - 彈吉他
+    - 看動漫
+
+<br/>
+
+```bash
+💻 Code with logic.
+🎸 Play with soul.
+```
 
 ---
 
