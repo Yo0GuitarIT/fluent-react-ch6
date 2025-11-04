@@ -40,7 +40,7 @@ hideInToc: true
 ### CH6: 伺服器端的 React 
 
 導讀人：Yo0
-筆記工：Kent
+筆記工：Weii
 
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
   Press Space for next page <carbon:arrow-right />
